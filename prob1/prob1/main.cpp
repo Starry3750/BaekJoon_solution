@@ -4,4 +4,6 @@ using namespace std;
 void main() {
 	cout << "Hello World!!!" << endl;
 
+	cout << "첫번째 수정" << endl;
+
 }
