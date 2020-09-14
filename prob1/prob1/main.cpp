@@ -8,4 +8,8 @@ void main() {
 
 	cout << "두번째 수정" << endl;
 
+	cout << "세번째 수정" << endl;
+
+	cout << "4th modification" << endl;
+
 }
