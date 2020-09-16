@@ -1,22 +1,13 @@
 #include <iostream>
-#include <string>
 using namespace std;
 
-void main() {
-	int val1 = 0;
-	string val2;
-
+int main() {
+	int val1 = 0, val2 = 0;
 	cin >> val1 >> val2;
+	cout << val1 * ((val2 % 100) % 10) << endl;
+	cout << val1 * ((val2 % 100) / 10) << endl;
+	cout << val1 * (val2 / 100) << endl;
+	cout << val1 * val2;
 
-	int i_val2[3];
-
-	for (int i = 0; i < 3; i++) {
-		i_val2[i] = atoi((const char*)val2.at(i));
-	}
-
-	cout << 
-
-
-
-	
+	return 0;
 }
